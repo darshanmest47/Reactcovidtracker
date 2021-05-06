@@ -1,0 +1,9 @@
+.display__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+   
+}
