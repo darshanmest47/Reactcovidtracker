@@ -1,0 +1,35 @@
+
+.radar__card{
+
+    width:auto;
+    height: 330px;
+    padding:0px;
+    margin:auto;
+  
+}
+
+.raar{
+    width:100%;
+    height:auto;
+    margin: auto;
+}
+
+
+@media (min-width:0px) and (max-width:767px){
+
+    .radar__card{
+
+        width:100%;
+        height: auto;
+        padding:0px;
+        margin:auto;
+      
+    }
+
+    .radar{
+        width:100%;
+        height:auto;
+        margin: auto;
+    }
+
+}

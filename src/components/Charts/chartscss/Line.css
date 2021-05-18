@@ -1,0 +1,37 @@
+
+.line__card{
+
+    width:auto;
+    height: 300px;
+    padding-left:0px;
+    margin:0px 10px;
+  
+}
+
+.line{
+    width:100%;
+    height:auto;
+    margin-top: 20px;
+   
+    
+}
+
+
+@media (min-width:0px) and (max-width:767px){
+
+    .line__card{
+
+        width:100%;
+        height: auto;
+        padding:0px;
+        margin:auto;
+      
+    }
+
+    .line{
+        width:100%;
+        height:auto;
+        margin: auto;
+    }
+
+}

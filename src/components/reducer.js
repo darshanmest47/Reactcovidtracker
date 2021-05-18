@@ -3,7 +3,8 @@
 const initState={
     data:[],
     individualData:[],
-    changed:false
+    changed:false,
+    carddisplay:true
 }
 
 const updateReducer=(state=initState,action)=>{
@@ -20,6 +21,19 @@ const updateReducer=(state=initState,action)=>{
                 ...state,
                 individualData:action.payload,
                 changed:true
+            }
+
+        case 'CNF_ZERO':
+            return{
+                ...state,
+                carddisplay:false
+            }
+
+        case 'MORE_THAN_ZERO':
+            return{
+                ...state,
+                carddisplay:true
+
             }
 
         default:

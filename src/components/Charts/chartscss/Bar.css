@@ -1,0 +1,83 @@
+.boxbar{
+  width:auto;
+  height:300px;
+  margin:auto
+
+    
+}
+
+
+
+.bar__card{
+
+    width:auto;
+    height: auto;
+    padding:0px;
+    margin:auto;
+  
+}
+
+.bar{
+    width:60%;
+    height:auto;
+    margin: auto;
+}
+
+
+@media (min-width:0px) and (max-width:775px){
+
+.boxbar{
+  width:auto;
+  height:auto;
+  margin:auto;
+  
+
+    
+}
+
+    .bar__card{
+
+        width:100%;
+        height: auto;
+        padding:0px;
+        margin-top:auto;
+      
+    }
+
+    .bar{
+        width:100%;
+        height:auto;
+        margin: auto;
+    }
+
+}
+
+
+@media (max-width:1024px){
+
+.boxbar{
+  width:auto;
+  height:auto;
+  margin:auto;
+  
+
+    
+}
+
+    .bar__card{
+
+        width:100%;
+        height: auto;
+        padding:0px;
+        margin-top:auto;
+      
+    }
+
+    .bar{
+        width:100%;
+        height:auto;
+        margin: auto;
+    }
+
+}
+

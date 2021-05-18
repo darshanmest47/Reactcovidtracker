@@ -1,0 +1,35 @@
+
+
+.charts__div{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 15px;
+
+}
+
+.no__cases{
+    text-align: center;
+}
+
+.charts__div2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 15px;
+
+}
+
+.dotted{
+    width: 100%;
+    border-top: 1px dotted black;
+}
+
+
+@media (min-width:0px) and (max-width:767px){
+    .dotted{
+        display:none;
+}
+}

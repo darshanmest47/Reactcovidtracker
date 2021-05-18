@@ -1,16 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import Displaycards from './components/Displaycards/Displaycards';
 import Dropdown from './components/Dropdown/Dropdown';
 import React,{useEffect,useState} from 'react';
 import axios from 'axios';
-import {Provider} from 'react-redux';
-import updateReducer from './components/reducer';
-import {createStore} from 'redux';
-import {useSelector,useDispatch} from 'react-redux';
+import {useDispatch} from 'react-redux';
 import loadData from './components/actioncreator';
 import Charts from './components/Charts/Charts'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
+
 
 
 
@@ -22,7 +22,7 @@ function App() {
 
   useEffect(()=>{
     axios.get("https://corona-api.com/countries").then((res)=>{
-      console.log(res.data.data)
+      
       setData(res.data.data);
       dispatch(loadData(data))
       
@@ -34,9 +34,12 @@ function App() {
   return (
         
         <div>
+          <Navbar/>
         <Displaycards datapass={data}/>
         <Dropdown datas={data}/>
         <Charts datachart={data}/>
+        <Footer/>
+      
       </div>
     
     

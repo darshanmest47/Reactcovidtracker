@@ -1,0 +1,37 @@
+
+
+.doughnut__card{
+
+    width:auto;
+    height: 330px;
+    padding:0px;
+    margin:auto;
+  
+}
+
+.doughnut{
+    width:330px;
+    height:auto;
+    margin: auto;
+}
+
+
+@media (min-width:0px) and (max-width:767px){
+
+    .doughnut__card{
+
+        width:100%;
+        height: auto;
+        padding:0px;
+        margin:auto;
+      
+    }
+
+    .doughnut{
+        width:100%;
+        height:auto;
+        margin: auto;
+    }
+
+}
+

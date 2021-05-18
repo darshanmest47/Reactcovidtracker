@@ -1,4 +1,4 @@
-import React,{useSelector} from 'react'
+import React from 'react'
 import Displaycard1 from './Dispalycard1'
 import Displaycard2 from './Displaycard2'
 import Displaycard3 from './Displaycard3'
